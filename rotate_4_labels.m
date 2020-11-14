@@ -1,7 +1,4 @@
-clear var;
-clear all;
-clc;
-function [LE,TE,LEindex,%%TEindex ההוא שמ11] = RotationForLabeling(data0,Label);
+function [LE,TE,LEindex,TEindex] = RotationForLabeling(data0,Labels);
 %% for blahblah label
 %for other labels the if condition will change and there may be more loops
 %for other parts of the wing...:)
@@ -65,4 +62,4 @@ function [LE,TE,LEindex,%%TEindex ההוא שמ11] = RotationForLabeling(data0,L
    
 
 
- 
+end
